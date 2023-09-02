@@ -21,8 +21,8 @@ function Home() {
       <h1>Song List</h1>
       <ul>
         {songs.map((song) => (
-          <div>
-            <li key={song.id}>
+          <div key={song.id}>
+            <li>
               {song.title} - {song.album.title}
             </li>
 
