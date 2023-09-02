@@ -1,5 +1,4 @@
 import { gql } from "@apollo/client";
-import { SchemaMetaFieldDef } from "graphql";
 
 export const GET_ALL_SONGS = gql`
   query {
